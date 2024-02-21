@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  box-sizing: inherit;
+  margin: 0;
+  background-color: rgb(38, 38, 61);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: inherit;
+  font-size: 1.5rem;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: inherit;
+}
+.wrapper {
+  display: flex;
+  width: 375px;
+  height: 600px;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 3rem;
+  -webkit-box-shadow: 0px 7px 51px 1px rgba(123, 123, 123, 1);
+  -moz-box-shadow: 0px 7px 51px 1px rgba(123, 123, 123, 1);
+  box-shadow: 0px 7px 51px 1px rgb(34, 34, 34);
+  background: linear-gradient(8deg, rgba(110, 215, 255, 1) 0%, #4594a8 100%);
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.input-container input {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+.input-container input::placeholder {
+  font-size: 1rem;
+}
+input {
+  font-family: inherit;
+}
+.input-container img {
+  width: 30px;
+  height: 30px;
+}
+.glass-div {
+  display: flex;
+  width: 50px;
+  padding: 2rem;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+.basic-weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+h2 {
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+h3 {
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.headers-of-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.additional-info-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 4rem;
+}
+.additional-info-container img {
+  width: 70px;
+  height: 70px;
+}
+.additional-cards {
+  display: flex;
+  width: 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.additional-cards span {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+.basic-weather-info img {
+  width: 130px;
+}

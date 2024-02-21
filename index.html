@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Enter city name..."
+            class="city-input"
+          />
+          <button class="glass-div search-btn">
+            <img src="img/glass.png" alt="glass" />
+          </button>
+        </div>
+        <div class="basic-weather-info">
+          <img src="img/sun.png" alt="sun" />
+          <div class="headers-of-info">
+            <h2 class="temp">26&#176;C</h2>
+            <h3 class="city">Dubai</h3>
+          </div>
+        </div>
+        <div class="additional-info-container">
+          <div class="additional-cards">
+            <img src="img/humidity2.png" alt="humidity" />
+            <h5 class="humidity">60%</h5>
+            <span>Humidity</span>
+          </div>
+          <div class="additional-cards">
+            <img src="img/wind2.png" alt="wind" />
+            <h5 class="wind">15km/h</h5>
+            <span>Wind Speed</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
